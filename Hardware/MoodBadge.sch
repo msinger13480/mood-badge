@@ -5113,7 +5113,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="R1" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
 <part name="R2" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
 <part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
-<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
+<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="LEFT"/>
 <part name="GND3" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND5" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND6" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5122,7 +5122,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="R3" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
 <part name="R4" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
 <part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
-<part name="LED2" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
+<part name="LED2" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="SELECT"/>
 <part name="GND4" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND7" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND8" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5131,7 +5131,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="R5" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
 <part name="R6" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
 <part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
-<part name="LED3" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
+<part name="LED3" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="DOWN"/>
 <part name="GND9" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND10" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND11" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5140,7 +5140,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="R7" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
 <part name="R8" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
 <part name="C5" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
-<part name="LED4" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
+<part name="LED4" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="UP"/>
 <part name="GND12" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND13" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND14" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5149,7 +5149,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="R9" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
 <part name="R10" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
 <part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
-<part name="LED5" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
+<part name="LED5" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="RIGHT"/>
 <part name="GND15" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND16" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND17" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -5158,23 +5158,23 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="R11" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
 <part name="R12" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
 <part name="C7" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
-<part name="LED6" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
+<part name="LED6" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="MODE"/>
 <part name="GND18" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND19" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND20" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="D1" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2" value="1A/23V/620mV"/>
-<part name="U1" library="SparkFun-IC-Power" deviceset="MCP73831" device=""/>
+<part name="CHRG" library="SparkFun-IC-Power" deviceset="MCP73831" device=""/>
 <part name="D2" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2" value="1A/23V/620mV"/>
 <part name="C8" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="GND21" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND22" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
 <part name="R13" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
-<part name="LED7" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
+<part name="LED7" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="STAT"/>
 <part name="GND23" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND24" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND25" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="R14" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="1k"/>
+<part name="R14" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10K"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="SUPPLY10" library="LinnesLab-Symbols" deviceset="VLIPO" device=""/>
 <part name="USB1" library="LinnesLab-Connectors" deviceset="USB.MICRO.PWR" device="-BIGGERPADS"/>
@@ -5196,7 +5196,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="C14" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="0.1u"/>
 <part name="R15" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
 <part name="SUPPLY15" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
-<part name="Y1" library="LinnesLab-Clocks" deviceset="CRYSTAL-CA-310" device=""/>
+<part name="Y1" library="LinnesLab-Clocks" deviceset="CRYSTAL-CA-310" device="" value="Crystal-CA-310"/>
 <part name="RESET" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140" device="" package3d_urn="urn:adsk.eagle:package:18580190/2"/>
 <part name="D3" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2" value="1A/23V/620mV"/>
 <part name="FTDI1" library="LinnesLab-Connectors" deviceset="FTDI_DEVICE" device=""/>
@@ -5277,6 +5277,7 @@ Transimpedance Amp</text>
 <text x="248.92" y="162.56" size="3.81" layer="97">Active Band-pass Filter</text>
 <wire x1="185.42" y1="172.72" x2="388.62" y2="172.72" width="0.1524" layer="97" style="longdash"/>
 <wire x1="388.62" y1="172.72" x2="388.62" y2="109.22" width="0.1524" layer="97" style="longdash"/>
+<text x="228.6" y="48.26" size="3.81" layer="97">Port Expander</text>
 </plain>
 <instances>
 <instance part="LIPO" gate="G$1" x="7.62" y="154.94" smashed="yes">
@@ -5322,7 +5323,7 @@ Transimpedance Amp</text>
 <attribute name="VALUE" x="32.004" y="63.881" size="1.778" layer="96"/>
 </instance>
 <instance part="LED1" gate="G$1" x="40.64" y="55.88" smashed="yes">
-<attribute name="NAME" x="37.211" y="51.308" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="37.211" y="51.308" size="1.778" layer="95" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.545" y="51.308" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND3" gate="G$1" x="40.64" y="45.72" smashed="yes">
@@ -5354,7 +5355,7 @@ Transimpedance Amp</text>
 <attribute name="VALUE" x="80.264" y="63.881" size="1.778" layer="96"/>
 </instance>
 <instance part="LED2" gate="G$1" x="88.9" y="55.88" smashed="yes">
-<attribute name="NAME" x="85.471" y="51.308" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="85.471" y="51.308" size="1.778" layer="95" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="90.805" y="51.308" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND4" gate="G$1" x="88.9" y="45.72" smashed="yes">
@@ -5386,7 +5387,7 @@ Transimpedance Amp</text>
 <attribute name="VALUE" x="80.264" y="25.781" size="1.778" layer="96"/>
 </instance>
 <instance part="LED3" gate="G$1" x="88.9" y="17.78" smashed="yes">
-<attribute name="NAME" x="85.471" y="13.208" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="85.471" y="13.208" size="1.778" layer="95" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="90.805" y="13.208" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND9" gate="G$1" x="88.9" y="7.62" smashed="yes">
@@ -5418,7 +5419,7 @@ Transimpedance Amp</text>
 <attribute name="VALUE" x="80.264" y="101.981" size="1.778" layer="96"/>
 </instance>
 <instance part="LED4" gate="G$1" x="88.9" y="93.98" smashed="yes">
-<attribute name="NAME" x="85.471" y="89.408" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="85.471" y="89.408" size="1.778" layer="95" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="90.805" y="89.408" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND12" gate="G$1" x="88.9" y="83.82" smashed="yes">
@@ -5450,7 +5451,7 @@ Transimpedance Amp</text>
 <attribute name="VALUE" x="32.004" y="25.781" size="1.778" layer="96"/>
 </instance>
 <instance part="LED5" gate="G$1" x="40.64" y="17.78" smashed="yes">
-<attribute name="NAME" x="37.211" y="13.208" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="37.211" y="13.208" size="1.778" layer="95" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="42.545" y="13.208" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND15" gate="G$1" x="40.64" y="7.62" smashed="yes">
@@ -5482,7 +5483,7 @@ Transimpedance Amp</text>
 <attribute name="VALUE" x="29.464" y="101.981" size="1.778" layer="96"/>
 </instance>
 <instance part="LED6" gate="G$1" x="38.1" y="93.98" smashed="yes">
-<attribute name="NAME" x="34.671" y="89.408" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="NAME" x="34.671" y="89.408" size="1.778" layer="95" font="vector" rot="R90" display="off"/>
 <attribute name="VALUE" x="40.005" y="89.408" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="GND18" gate="G$1" x="38.1" y="83.82" smashed="yes">
@@ -5498,7 +5499,7 @@ Transimpedance Amp</text>
 <attribute name="NAME" x="48.26" y="151.892" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="48.26" y="147.828" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="U1" gate="G$1" x="142.24" y="152.4" smashed="yes">
+<instance part="CHRG" gate="G$1" x="142.24" y="152.4" smashed="yes">
 <attribute name="NAME" x="134.62" y="157.988" size="1.778" layer="95"/>
 <attribute name="VALUE" x="134.62" y="144.78" size="1.778" layer="96"/>
 </instance>
@@ -5513,8 +5514,8 @@ Transimpedance Amp</text>
 <instance part="GND21" gate="G$1" x="111.76" y="137.16" smashed="yes">
 <attribute name="VALUE" x="111.76" y="136.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND22" gate="G$1" x="96.52" y="139.7" smashed="yes">
-<attribute name="VALUE" x="96.52" y="139.446" size="1.778" layer="96" align="top-center"/>
+<instance part="GND22" gate="G$1" x="96.52" y="137.16" smashed="yes">
+<attribute name="VALUE" x="96.52" y="136.906" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="124.46" y="160.02" smashed="yes">
 <attribute name="VALUE" x="124.46" y="162.814" size="1.778" layer="96" align="bottom-center"/>
@@ -5523,9 +5524,9 @@ Transimpedance Amp</text>
 <attribute name="NAME" x="122.9614" y="135.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="127.762" y="135.89" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED7" gate="G$1" x="129.54" y="139.7" smashed="yes" rot="R180">
-<attribute name="NAME" x="132.969" y="144.272" size="1.778" layer="95" font="vector" rot="R270"/>
-<attribute name="VALUE" x="127.635" y="144.272" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
+<instance part="LED7" gate="G$1" x="129.54" y="139.7" smashed="yes" rot="MR180">
+<attribute name="NAME" x="126.111" y="144.272" size="1.778" layer="95" font="vector" rot="MR270" display="off"/>
+<attribute name="VALUE" x="131.445" y="144.272" size="1.778" layer="96" font="vector" rot="MR270" align="top-left"/>
 </instance>
 <instance part="GND23" gate="G$1" x="154.94" y="144.78" smashed="yes">
 <attribute name="VALUE" x="154.94" y="144.526" size="1.778" layer="96" align="top-center"/>
@@ -5613,8 +5614,8 @@ Transimpedance Amp</text>
 <attribute name="VALUE" x="157.48" y="89.154" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="Y1" gate="G$1" x="160.02" y="63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="157.988" y="63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="162.052" y="63.5" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<attribute name="NAME" x="157.988" y="63.5" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center" display="off"/>
+<attribute name="VALUE" x="154.432" y="68.58" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="RESET" gate="G$1" x="127" y="43.18" smashed="yes">
 <attribute name="NAME" x="124.46" y="49.53" size="1.778" layer="95"/>
@@ -5626,7 +5627,7 @@ Transimpedance Amp</text>
 </instance>
 <instance part="FTDI1" gate="G$1" x="248.92" y="104.14" smashed="yes">
 <attribute name="NAME" x="248.92" y="114.3" size="1.778" layer="95"/>
-<attribute name="VALUE" x="248.92" y="111.76" size="1.778" layer="96"/>
+<attribute name="VALUE" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="BOOT" gate="G$1" x="246.38" y="71.12" smashed="yes">
 <attribute name="NAME" x="241.3" y="76.708" size="1.778" layer="95" font="vector"/>
@@ -5678,8 +5679,8 @@ Transimpedance Amp</text>
 <instance part="SUPPLY16" gate="G$1" x="261.62" y="43.18" smashed="yes">
 <attribute name="VALUE" x="261.62" y="45.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND33" gate="G$1" x="261.62" y="5.08" smashed="yes">
-<attribute name="VALUE" x="261.62" y="4.826" size="1.778" layer="96" align="top-center"/>
+<instance part="GND33" gate="G$1" x="261.62" y="7.62" smashed="yes">
+<attribute name="VALUE" x="261.62" y="7.366" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY17" gate="G$1" x="226.06" y="165.1" smashed="yes">
 <attribute name="VALUE" x="226.06" y="167.894" size="1.778" layer="96" align="bottom-center"/>
@@ -5908,11 +5909,11 @@ Transimpedance Amp</text>
 <segment>
 <wire x1="93.98" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="G$1" pin="GND"/>
-<wire x1="96.52" y1="144.78" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="144.78" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="USB1" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VSS"/>
+<pinref part="CHRG" gate="G$1" pin="VSS"/>
 <wire x1="152.4" y1="149.86" x2="154.94" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="G$1" pin="GND"/>
 <wire x1="154.94" y1="149.86" x2="154.94" y2="147.32" width="0.1524" layer="91"/>
@@ -5980,7 +5981,7 @@ Transimpedance Amp</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VSS"/>
 <wire x1="259.08" y1="12.7" x2="261.62" y2="12.7" width="0.1524" layer="91" style="longdash"/>
-<wire x1="261.62" y1="12.7" x2="261.62" y2="7.62" width="0.1524" layer="91" style="longdash"/>
+<wire x1="261.62" y1="12.7" x2="261.62" y2="10.16" width="0.1524" layer="91" style="longdash"/>
 <pinref part="GND33" gate="G$1" pin="GND"/>
 </segment>
 <segment>
@@ -6052,7 +6053,7 @@ Transimpedance Amp</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="VBAT"/>
+<pinref part="CHRG" gate="G$1" pin="VBAT"/>
 <wire x1="152.4" y1="154.94" x2="175.26" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="154.94" x2="175.26" y2="152.4" width="0.1524" layer="91"/>
@@ -6107,7 +6108,7 @@ Transimpedance Amp</text>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
-<pinref part="U1" gate="G$1" pin="VIN"/>
+<pinref part="CHRG" gate="G$1" pin="VIN"/>
 <wire x1="106.68" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
@@ -6374,7 +6375,7 @@ Transimpedance Amp</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PROG"/>
+<pinref part="CHRG" gate="G$1" pin="PROG"/>
 <wire x1="152.4" y1="152.4" x2="162.56" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="152.4" x2="162.56" y2="149.86" width="0.1524" layer="91" style="longdash"/>
@@ -6400,7 +6401,7 @@ Transimpedance Amp</text>
 <segment>
 <pinref part="LED7" gate="G$1" pin="C"/>
 <wire x1="129.54" y1="144.78" x2="129.54" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="STAT"/>
+<pinref part="CHRG" gate="G$1" pin="STAT"/>
 <wire x1="129.54" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
 <label x="129.54" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -6481,12 +6482,22 @@ Transimpedance Amp</text>
 <wire x1="297.18" y1="7.62" x2="294.64" y2="7.62" width="0.1524" layer="91"/>
 <label x="294.64" y="7.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U2" gate="U$1" pin="ADC6"/>
+<wire x1="210.82" y1="76.2" x2="213.36" y2="76.2" width="0.1524" layer="91" style="longdash"/>
+<label x="213.36" y="76.2" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LD4" class="0">
 <segment>
 <pinref part="MATRIX" gate="G$1" pin="A3"/>
 <wire x1="340.36" y1="93.98" x2="340.36" y2="96.52" width="0.1524" layer="91"/>
 <label x="340.36" y="96.52" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="U$1" pin="ADC7"/>
+<wire x1="210.82" y1="73.66" x2="213.36" y2="73.66" width="0.1524" layer="91" style="longdash"/>
+<label x="213.36" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RXD" class="0">
