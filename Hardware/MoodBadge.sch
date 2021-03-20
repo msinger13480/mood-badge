@@ -6309,9 +6309,9 @@ Megan Singer</text>
 <label x="88.9" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="P0"/>
-<wire x1="259.08" y1="35.56" x2="261.62" y2="35.56" width="0.1524" layer="91" style="longdash"/>
-<label x="261.62" y="35.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="P3"/>
+<wire x1="259.08" y1="27.94" x2="261.62" y2="27.94" width="0.1524" layer="91"/>
+<label x="261.62" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -6338,9 +6338,9 @@ Megan Singer</text>
 <label x="40.64" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="P3"/>
-<wire x1="259.08" y1="27.94" x2="261.62" y2="27.94" width="0.1524" layer="91" style="longdash"/>
-<label x="261.62" y="27.94" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC1" gate="G$1" pin="P0"/>
+<wire x1="259.08" y1="35.56" x2="261.62" y2="35.56" width="0.1524" layer="91"/>
+<label x="261.62" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
