@@ -497,6 +497,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </library>
 <library name="LinnesLab-LED">
 <packages>
+<package name="2-SMD.Z-BEND">
+<smd name="-" x="2.525" y="0" dx="1.5" dy="1" layer="1"/>
+<hole x="0" y="0" drill="1.9"/>
+<smd name="+" x="-2.525" y="0" dx="1.5" dy="1" layer="1"/>
+<text x="-2.9" y="1.8" size="1.27" layer="25">&gt;Name</text>
+<text x="-3" y="-2.9" size="1.27" layer="27">&gt;Value</text>
+<wire x1="-1.2" y1="1.2" x2="1.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="1.2" y1="1.2" x2="1.2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="1.2" y1="-1.2" x2="-1.2" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-1.2" y1="-1.2" x2="-1.2" y2="1.2" width="0.127" layer="21"/>
+<wire x1="-3.048" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="1.2446" y1="1.1938" x2="1.651" y2="0" width="0.127" layer="21"/>
+<wire x1="1.651" y1="0" x2="1.2446" y2="-1.1176" width="0.127" layer="21"/>
+<wire x1="1.2446" y1="-1.1176" x2="1.2446" y2="1.1938" width="0.127" layer="21"/>
+<wire x1="1.651" y1="1.5748" x2="1.651" y2="0" width="0.127" layer="21"/>
+<wire x1="1.651" y1="0" x2="1.651" y2="-1.6256" width="0.127" layer="21"/>
+<wire x1="1.651" y1="0" x2="2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="0.508" x2="-2.54" y2="-0.508" width="0.127" layer="21"/>
+</package>
 <package name="LED-0603" urn="urn:adsk.eagle:footprint:18593059/1" locally_modified="yes">
 <description>&lt;B&gt;LED 0603 SMT&lt;/B&gt;&lt;p&gt;
 0603, surface mount.
@@ -1385,22 +1404,22 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="70R6870" x="-33.02" y="-21.59" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-29.337" y="-14.732" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LED8" library="LinnesLab-LED" package="LED-0603" package3d_urn="urn:adsk.eagle:package:18593052/2" value="" x="38.1" y="17.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.735" y="17.78" size="0.7112" layer="25" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="37.465" y="17.78" size="0.7112" layer="27" ratio="20" rot="R270" align="top-center"/>
+<element name="LED8" library="LinnesLab-LED" package="2-SMD.Z-BEND" value="" x="-21.59" y="45.72" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-21.59" y="46.355" size="0.7112" layer="26" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="-21.59" y="45.085" size="0.7112" layer="28" ratio="20" rot="MR0" align="top-center"/>
 </element>
-<element name="R24" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="487" x="34.29" y="17.78" smashed="yes" rot="R270">
-<attribute name="NAME" x="34.925" y="18.415" size="0.7112" layer="25" rot="R270"/>
-<attribute name="VALUE" x="32.385" y="18.415" size="0.7112" layer="27" rot="R270"/>
+<element name="R24" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="487" x="-27.94" y="45.72" smashed="yes">
+<attribute name="NAME" x="-28.575" y="46.355" size="0.7112" layer="25"/>
+<attribute name="VALUE" x="-28.575" y="43.815" size="0.7112" layer="27"/>
 </element>
 <element name="C15" library="SparkFun-Capacitors" package="0603" value="100n" x="-30.48" y="41.91" smashed="yes" rot="R270">
 <attribute name="NAME" x="-29.718" y="41.91" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-08280" x="-30.48" y="41.91" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-31.242" y="41.91" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="PD" library="LinnesLab-Sensors" package="6-PIN.CHIPLED" value="ADPS9008" x="-25.4" y="43.18" smashed="yes" rot="R90">
-<attribute name="NAME" x="-26.6" y="42.08" size="0.5" layer="25" rot="R90"/>
-<attribute name="VALUE" x="-23.8" y="42.08" size="0.5" layer="27" rot="R90"/>
+<element name="PD" library="LinnesLab-Sensors" package="6-PIN.CHIPLED" value="ADPS9008" x="-21.59" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="-22.79" y="42.08" size="0.5" layer="25" rot="R90"/>
+<attribute name="VALUE" x="-19.99" y="42.08" size="0.5" layer="27" rot="R90"/>
 </element>
 <element name="R25" library="LinnesLab-Passives" package="R0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="12k" x="-15.24" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="-15.875" y="42.545" size="0.7112" layer="25" rot="R90"/>
@@ -1635,7 +1654,7 @@ design rules under a new name.</description>
 <contactref element="D3" pad="-"/>
 <contactref element="BOOT" pad="2"/>
 <contactref element="IC1" pad="16"/>
-<contactref element="LED8" pad="A"/>
+<contactref element="LED8" pad="+"/>
 <contactref element="PD" pad="1"/>
 <contactref element="C15" pad="1"/>
 <contactref element="R28" pad="2"/>
@@ -1649,13 +1668,6 @@ design rules under a new name.</description>
 <wire x1="30.48" y1="-2.96" x2="30.607" y2="-3.087" width="0.3048" layer="1"/>
 <wire x1="30.607" y1="-3.087" x2="35.8171" y2="-3.087" width="0.3048" layer="1"/>
 <wire x1="35.8171" y1="-3.087" x2="36.51" y2="-3.7799" width="0.3048" layer="1"/>
-<wire x1="41.91" y1="-0.85" x2="40.64" y2="0.42" width="0.3048" layer="1"/>
-<wire x1="40.64" y1="0.42" x2="40.64" y2="2.54" width="0.3048" layer="1"/>
-<via x="40.64" y="2.54" extent="1-16" drill="0.35"/>
-<via x="40.64" y="17.78" extent="1-16" drill="0.35"/>
-<wire x1="40.64" y1="17.78" x2="39.763" y2="18.657" width="0.3048" layer="1"/>
-<wire x1="39.763" y1="18.657" x2="38.1" y2="18.657" width="0.3048" layer="1"/>
-<wire x1="40.64" y1="2.54" x2="40.64" y2="17.78" width="0.3048" layer="16"/>
 <wire x1="-19.3675" y1="-40.12" x2="-11.1125" y2="-40.12" width="0.3048" layer="1"/>
 <wire x1="-11.1125" y1="-40.12" x2="-4.1275" y2="-40.12" width="0.3048" layer="1"/>
 <wire x1="-4.1275" y1="-40.12" x2="4.1275" y2="-40.12" width="0.3048" layer="1"/>
@@ -1677,7 +1689,7 @@ design rules under a new name.</description>
 <wire x1="-34.29" y1="30.06" x2="-29.21" y2="30.06" width="0.3048" layer="1"/>
 <wire x1="-36.83" y1="27.52" x2="-41.91" y2="27.52" width="0.3048" layer="1"/>
 <wire x1="-30.48" y1="42.76" x2="-29.46" y2="43.78" width="0.3048" layer="1"/>
-<wire x1="-29.46" y1="43.78" x2="-26.05" y2="43.78" width="0.3048" layer="1"/>
+<wire x1="-29.46" y1="43.78" x2="-22.24" y2="43.78" width="0.3048" layer="1"/>
 <wire x1="-5.588" y1="28.359" x2="-5.588" y2="27.178" width="0.3048" layer="1"/>
 <wire x1="-5.588" y1="27.178" x2="-5.15" y2="26.74" width="0.3048" layer="1"/>
 <wire x1="-5.15" y1="26.74" x2="-4.2926" y2="26.74" width="0.3048" layer="1"/>
@@ -1693,7 +1705,8 @@ design rules under a new name.</description>
 <wire x1="-4.2926" y1="28.34" x2="-5.569" y2="28.34" width="0.3048" layer="1"/>
 <wire x1="-5.569" y1="28.34" x2="-5.588" y2="28.359" width="0.3048" layer="1"/>
 <wire x1="-30.48" y1="42.76" x2="-30.06" y2="42.76" width="0.3048" layer="1"/>
-<wire x1="-26.67" y1="39.37" x2="-7.62" y2="39.37" width="0.3048" layer="16"/>
+<wire x1="-26.67" y1="39.37" x2="-17.78" y2="39.37" width="0.3048" layer="16"/>
+<wire x1="-17.78" y1="39.37" x2="-7.62" y2="39.37" width="0.3048" layer="16"/>
 <wire x1="-30.06" y1="42.76" x2="-26.67" y2="39.37" width="0.3048" layer="1"/>
 <via x="-7.62" y="39.37" extent="1-16" drill="0.35"/>
 <wire x1="-7.62" y1="39.37" x2="-6.35" y2="39.37" width="0.3048" layer="1"/>
@@ -1734,11 +1747,6 @@ design rules under a new name.</description>
 <via x="-40.64" y="-24.13" extent="1-16" drill="0.35"/>
 <wire x1="-40.64" y1="-24.13" x2="-38.735" y2="-26.035" width="0.3048" layer="1"/>
 <wire x1="-38.735" y1="-26.035" x2="-37.62" y2="-26.035" width="0.3048" layer="1"/>
-<wire x1="38.1" y1="18.657" x2="36.437" y2="20.32" width="0.3048" layer="1"/>
-<wire x1="36.437" y1="20.32" x2="30.48" y2="20.32" width="0.3048" layer="1"/>
-<wire x1="30.48" y1="20.32" x2="29.083" y2="21.717" width="0.3048" layer="1"/>
-<wire x1="29.083" y1="21.717" x2="29.083" y2="32.893" width="0.3048" layer="1"/>
-<wire x1="29.083" y1="32.893" x2="33.02" y2="36.83" width="0.3048" layer="1"/>
 <wire x1="-3.8401" y1="39.69" x2="-3.8401" y2="38.1301" width="0.3048" layer="1"/>
 <wire x1="-3.8401" y1="38.1301" x2="-3.81" y2="38.1" width="0.3048" layer="1"/>
 <via x="-3.81" y="38.1" extent="1-16" drill="0.35"/>
@@ -1760,6 +1768,14 @@ design rules under a new name.</description>
 <via x="6.9568" y="27.2768" extent="1-16" drill="0.35"/>
 <via x="5.62" y="25.94" extent="1-16" drill="0.35"/>
 <wire x1="36.51" y1="-3.7799" x2="36.51" y2="-5.0499" width="0.3048" layer="1"/>
+<wire x1="-19.065" y1="45.72" x2="-19.05" y2="45.705" width="0.3048" layer="16"/>
+<wire x1="-19.05" y1="45.705" x2="-19.05" y2="40.64" width="0.3048" layer="16"/>
+<wire x1="-19.05" y1="40.64" x2="-17.78" y2="39.37" width="0.3048" layer="16"/>
+<wire x1="30.48" y1="-2.96" x2="27.94" y2="-5.5" width="0.3048" layer="1"/>
+<wire x1="7.4175" y1="-24.13" x2="4.1275" y2="-27.42" width="0.3048" layer="1"/>
+<wire x1="27.94" y1="-5.5" x2="27.94" y2="-22.86" width="0.3048" layer="1"/>
+<wire x1="27.94" y1="-22.86" x2="26.67" y2="-24.13" width="0.3048" layer="1"/>
+<wire x1="26.67" y1="-24.13" x2="7.4175" y2="-24.13" width="0.3048" layer="1"/>
 </signal>
 <signal name="LEFT">
 <contactref element="LEFT" pad="4"/>
@@ -2405,16 +2421,17 @@ design rules under a new name.</description>
 <wire x1="0" y1="34.29" x2="-5.08" y2="34.29" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$22">
-<contactref element="LED8" pad="C"/>
+<contactref element="LED8" pad="-"/>
 <contactref element="R24" pad="2"/>
-<wire x1="34.29" y1="16.93" x2="34.317" y2="16.903" width="0.1524" layer="1"/>
-<wire x1="34.317" y1="16.903" x2="38.1" y2="16.903" width="0.3048" layer="1"/>
+<wire x1="-27.09" y1="45.72" x2="-25.4" y2="45.72" width="0.1524" layer="1"/>
+<via x="-25.4" y="45.72" extent="1-16" drill="0.35"/>
+<wire x1="-25.4" y1="45.72" x2="-24.115" y2="45.72" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$23">
 <contactref element="PD" pad="6"/>
 <contactref element="C17" pad="1"/>
 <contactref element="R25" pad="2"/>
-<wire x1="-24.75" y1="43.78" x2="-15.49" y2="43.78" width="0.1524" layer="1"/>
+<wire x1="-20.94" y1="43.78" x2="-15.49" y2="43.78" width="0.1524" layer="1"/>
 <wire x1="-15.49" y1="43.78" x2="-15.24" y2="44.03" width="0.1524" layer="1"/>
 <wire x1="-15.24" y1="44.03" x2="-10.16" y2="44.03" width="0.1524" layer="1"/>
 </signal>
