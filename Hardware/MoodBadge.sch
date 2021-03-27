@@ -5099,6 +5099,8 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
+<class number="1" name="VCC" width="0.3048" drill="0">
+</class>
 </classes>
 <parts>
 <part name="LIPO" library="LinnesLab-Connectors" deviceset="JST_2MM_MALE" device=""/>
@@ -6038,7 +6040,7 @@ Megan Singer</text>
 <wire x1="360.68" y1="165.1" x2="365.76" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VLIPO" class="0">
+<net name="VLIPO" class="1">
 <segment>
 <pinref part="LIPO" gate="G$1" pin="+"/>
 <wire x1="10.16" y1="149.86" x2="10.16" y2="147.32" width="0.1524" layer="91"/>
@@ -6075,7 +6077,7 @@ Megan Singer</text>
 <pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="VCC" class="0">
+<net name="VCC" class="1">
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 <wire x1="7.62" y1="76.2" x2="7.62" y2="73.66" width="0.1524" layer="91"/>
