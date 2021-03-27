@@ -5201,7 +5201,6 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="Y1" library="LinnesLab-Clocks" deviceset="CRYSTAL-CA-310" device="" value="Crystal-CA-310"/>
 <part name="RESET" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140" device="" package3d_urn="urn:adsk.eagle:package:18580190/2"/>
 <part name="D3" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2" value="1A/23V/620mV"/>
-<part name="FTDI1" library="LinnesLab-Connectors" deviceset="FTDI_DEVICE" device=""/>
 <part name="BOOT" library="LinnesLab-Connectors" deviceset="AVR_SPI_PROG_3X2" device="NS" package3d_urn="urn:adsk.eagle:package:18167648/2"/>
 <part name="GND32" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="MATRIX" library="adafruit" deviceset="SEGMENT_8X8_ROWCATHODE" device="BL-M12A883"/>
@@ -5244,6 +5243,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <part name="GND40" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND41" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="OP" library="LinnesLab-AnalogIC" deviceset="OP-SINGLE" device="OT" package3d_urn="urn:adsk.eagle:package:18172171/2" value="OP-SINGLEOT"/>
+<part name="FTDI2" library="LinnesLab-Connectors" deviceset="FTDI_DEVICE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5633,10 +5633,6 @@ Megan Singer</text>
 <attribute name="NAME" x="231.14" y="102.108" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="231.14" y="106.172" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="FTDI1" gate="G$1" x="248.92" y="104.14" smashed="yes">
-<attribute name="NAME" x="248.92" y="114.3" size="1.778" layer="95"/>
-<attribute name="VALUE" x="248.92" y="111.76" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="BOOT" gate="G$1" x="246.38" y="71.12" smashed="yes">
 <attribute name="NAME" x="241.3" y="76.708" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="241.3" y="63.754" size="1.778" layer="96" font="vector"/>
@@ -5793,6 +5789,10 @@ Megan Singer</text>
 <instance part="OP" gate="G$2" x="360.68" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="372.11" y="151.13" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="359.41" y="157.48" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="FTDI2" gate="G$1" x="248.92" y="101.6" smashed="yes" rot="MR180">
+<attribute name="NAME" x="248.92" y="91.44" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="248.92" y="93.98" size="1.778" layer="96" rot="MR180"/>
 </instance>
 </instances>
 <busses>
@@ -5971,14 +5971,14 @@ Megan Singer</text>
 <wire x1="134.62" y1="40.64" x2="134.62" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="FTDI1" gate="G$1" pin="DTR"/>
 <wire x1="243.84" y1="109.22" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="FTDI1" gate="G$1" pin="RXI"/>
 <wire x1="241.3" y1="109.22" x2="238.76" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="106.68" x2="241.3" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="106.68" x2="241.3" y2="109.22" width="0.1524" layer="91"/>
 <junction x="241.3" y="109.22"/>
 <label x="238.76" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="FTDI2" gate="G$1" pin="CTS"/>
+<pinref part="FTDI2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="BOOT" gate="G$1" pin="6"/>
@@ -6446,9 +6446,9 @@ Megan Singer</text>
 <label x="124.46" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="FTDI1" gate="G$1" pin="GND"/>
 <wire x1="243.84" y1="96.52" x2="241.3" y2="96.52" width="0.1524" layer="91"/>
 <label x="241.3" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="FTDI2" gate="G$1" pin="DTR"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -6515,9 +6515,9 @@ Megan Singer</text>
 <label x="213.36" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="FTDI1" gate="G$1" pin="CTS"/>
 <wire x1="243.84" y1="99.06" x2="241.3" y2="99.06" width="0.1524" layer="91"/>
 <label x="241.3" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="FTDI2" gate="G$1" pin="RXI"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -6527,9 +6527,9 @@ Megan Singer</text>
 <label x="213.36" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="FTDI1" gate="G$1" pin="VCC"/>
 <wire x1="243.84" y1="101.6" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
 <label x="241.3" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="FTDI2" gate="G$1" pin="TXO"/>
 </segment>
 </net>
 <net name="LD3" class="0">
@@ -6679,11 +6679,11 @@ Megan Singer</text>
 <label x="294.64" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="N$12" class="1">
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
-<pinref part="FTDI1" gate="G$1" pin="TXO"/>
 <wire x1="231.14" y1="104.14" x2="243.84" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="FTDI2" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$14" class="0">
