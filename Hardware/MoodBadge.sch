@@ -5099,7 +5099,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</description>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="VCC" width="0.3048" drill="0">
+<class number="1" name="power" width="0.3048" drill="0">
 </class>
 </classes>
 <parts>
@@ -5798,7 +5798,7 @@ Megan Singer</text>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="LIPO" gate="G$1" pin="-"/>
 <pinref part="GND1" gate="G$1" pin="GND"/>
@@ -6070,7 +6070,7 @@ Megan Singer</text>
 <junction x="177.8" y="154.94"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="N$2" class="1">
 <segment>
 <pinref part="ON/OFF" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="149.86" x2="48.26" y2="149.86" width="0.1524" layer="91"/>
@@ -6389,14 +6389,14 @@ Megan Singer</text>
 <wire x1="165.1" y1="152.4" x2="165.1" y2="149.86" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="N$1" class="1">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="96.52" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="USB1" gate="G$1" pin="V+"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="N$6" class="1">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="127" y1="134.62" x2="127" y2="132.08" width="0.1524" layer="91"/>

@@ -189,6 +189,9 @@
 <circle x="0" y="52.07" radius="2.54" width="0.1524" layer="20"/>
 <wire x1="55.041009375" y1="-15.382109375" x2="55.041009375" y2="15.382109375" width="0.025" layer="20"/>
 <wire x1="55.041009375" y1="15.382109375" x2="55.041009375" y2="-15.382109375" width="0.025" layer="20" curve="328.77"/>
+<text x="27.94" y="-31.75" size="1.778" layer="112">Mood Badge
+Megan Singer
+V1 2021</text>
 </plain>
 <libraries>
 <library name="LinnesLab-Connectors">
@@ -932,7 +935,7 @@ http://www-eu2.semiconductors.com&lt;p&gt;
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="VCC" width="0.3048" drill="0">
+<class number="1" name="power" width="0.3048" drill="0">
 </class>
 </classes>
 <designrules name="default">
@@ -1456,7 +1459,7 @@ design rules under a new name.</description>
 <element name="FTDI2" library="LinnesLab-Connectors" package="FTDI_DEVICE" value="FTDI_DEVICE" x="38.1" y="26.67" smashed="yes" rot="R180"/>
 </elements>
 <signals>
-<signal name="GND">
+<signal name="GND" class="1">
 <contactref element="LIPO" pad="1"/>
 <contactref element="C1" pad="2"/>
 <contactref element="R1" pad="1"/>
@@ -1546,6 +1549,21 @@ design rules under a new name.</description>
 <via x="-15.24" y="1.27" extent="1-16" drill="0.35"/>
 <contactref element="FTDI2" pad="CTS"/>
 <contactref element="FTDI2" pad="GND"/>
+<via x="-38.1" y="-12.7" extent="1-16" drill="0.35"/>
+<via x="52.07" y="6.35" extent="1-16" drill="0.35"/>
+<via x="-1.778" y="-47.117" extent="1-16" drill="0.35"/>
+<via x="-1.778" y="-34.163" extent="1-16" drill="0.35"/>
+<via x="-2.032" y="-21.336" extent="1-16" drill="0.35"/>
+<via x="-13.97" y="-20.32" extent="1-16" drill="0.35"/>
+<via x="-15.367" y="-30.099" extent="1-16" drill="0.35"/>
+<via x="-17.399" y="-34.163" extent="1-16" drill="0.35"/>
+<via x="13.589" y="-34.29" extent="1-16" drill="0.35"/>
+<via x="15.621" y="-29.845" extent="1-16" drill="0.35"/>
+<via x="22.86" y="46.99" extent="1-16" drill="0.35"/>
+<via x="22.86" y="39.37" extent="1-16" drill="0.35"/>
+<via x="8.89" y="41.91" extent="1-16" drill="0.35"/>
+<via x="-12.446" y="34.925" extent="1-16" drill="0.35"/>
+<via x="-16.51" y="31.75" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VLIPO" class="1">
 <contactref element="LIPO" pad="2"/>
@@ -1575,18 +1593,18 @@ design rules under a new name.</description>
 <wire x1="41.894" y1="5.096" x2="46.846" y2="5.096" width="0.3048" layer="1"/>
 <wire x1="46.846" y1="5.096" x2="47.862" y2="4.08" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$2">
+<signal name="N$2" class="1">
 <contactref element="ON/OFF" pad="1"/>
 <contactref element="D1" pad="+"/>
-<wire x1="35.23" y1="6.39" x2="36.83" y2="4.79" width="0.1524" layer="1"/>
-<wire x1="36.83" y1="4.79" x2="36.83" y2="3.81" width="0.1524" layer="1"/>
+<wire x1="35.23" y1="6.39" x2="36.83" y2="4.79" width="0.3048" layer="1"/>
+<wire x1="36.83" y1="4.79" x2="36.83" y2="3.81" width="0.3048" layer="1"/>
 <via x="36.83" y="3.81" extent="1-16" drill="0.35"/>
-<wire x1="36.83" y1="3.81" x2="36.83" y2="-7.62" width="0.1524" layer="16"/>
-<wire x1="36.83" y1="-7.62" x2="40.64" y2="-11.43" width="0.1524" layer="16"/>
-<wire x1="40.64" y1="-11.43" x2="41.91" y2="-11.43" width="0.1524" layer="16"/>
+<wire x1="36.83" y1="3.81" x2="36.83" y2="-7.62" width="0.3048" layer="16"/>
+<wire x1="36.83" y1="-7.62" x2="40.64" y2="-11.43" width="0.3048" layer="16"/>
+<wire x1="40.64" y1="-11.43" x2="41.91" y2="-11.43" width="0.3048" layer="16"/>
 <via x="41.91" y="-11.43" extent="1-16" drill="0.35"/>
-<wire x1="41.91" y1="-11.43" x2="43.06" y2="-11.43" width="0.1524" layer="1"/>
-<wire x1="43.06" y1="-11.43" x2="44.33" y2="-10.16" width="0.1524" layer="1"/>
+<wire x1="41.91" y1="-11.43" x2="43.06" y2="-11.43" width="0.3048" layer="1"/>
+<wire x1="43.06" y1="-11.43" x2="44.33" y2="-10.16" width="0.3048" layer="1"/>
 </signal>
 <signal name="VCC" class="1">
 <contactref element="LEFT" pad="1"/>
@@ -1907,31 +1925,31 @@ design rules under a new name.</description>
 <signal name="N$4">
 <contactref element="CHRG" pad="5"/>
 <contactref element="R14" pad="2"/>
-<wire x1="34.61" y1="-5.0499" x2="34.61" y2="-4.13" width="0.1524" layer="1"/>
-<wire x1="34.61" y1="-4.13" x2="34.29" y2="-3.81" width="0.1524" layer="1"/>
+<wire x1="34.61" y1="-5.0499" x2="34.61" y2="-4.13" width="0.3048" layer="1"/>
+<wire x1="34.61" y1="-4.13" x2="34.29" y2="-3.81" width="0.3048" layer="1"/>
 <via x="34.29" y="-3.81" extent="1-16" drill="0.35"/>
 <via x="34.29" y="-2.3532" extent="1-16" drill="0.35"/>
-<wire x1="34.29" y1="-2.3532" x2="34.29" y2="-0.85" width="0.1524" layer="1"/>
-<wire x1="34.29" y1="-3.81" x2="34.29" y2="-2.3532" width="0.1524" layer="16"/>
+<wire x1="34.29" y1="-2.3532" x2="34.29" y2="-0.85" width="0.3048" layer="1"/>
+<wire x1="34.29" y1="-3.81" x2="34.29" y2="-2.3532" width="0.3048" layer="16"/>
 </signal>
-<signal name="N$1">
+<signal name="N$1" class="1">
 <contactref element="D2" pad="+"/>
 <contactref element="USB1" pad="1"/>
-<wire x1="50.819" y1="-8.793" x2="45.623" y2="-8.793" width="0.1524" layer="1"/>
-<wire x1="45.623" y1="-8.793" x2="44.33" y2="-7.5" width="0.1524" layer="1"/>
-<wire x1="44.33" y1="-5.08" x2="44.33" y2="-7.5" width="0.1524" layer="1"/>
+<wire x1="50.819" y1="-8.793" x2="45.623" y2="-8.793" width="0.3048" layer="1"/>
+<wire x1="45.623" y1="-8.793" x2="44.33" y2="-7.5" width="0.3048" layer="1"/>
+<wire x1="44.33" y1="-5.08" x2="44.33" y2="-7.5" width="0.3048" layer="1"/>
 </signal>
-<signal name="N$6">
+<signal name="N$6" class="1">
 <contactref element="R13" pad="1"/>
 <contactref element="LED7" pad="A"/>
-<wire x1="30.48" y1="-4.66" x2="30.48" y2="-8.013" width="0.1524" layer="1"/>
+<wire x1="30.48" y1="-4.66" x2="30.48" y2="-8.013" width="0.3048" layer="1"/>
 </signal>
 <signal name="STAT">
 <contactref element="LED7" pad="C"/>
 <contactref element="CHRG" pad="1"/>
-<wire x1="30.48" y1="-9.767" x2="33.7631" y2="-9.767" width="0.1524" layer="1"/>
-<wire x1="34.61" y1="-8.9201" x2="34.61" y2="-7.6501" width="0.1524" layer="1"/>
-<wire x1="34.61" y1="-8.9201" x2="33.7631" y2="-9.767" width="0.1524" layer="1"/>
+<wire x1="30.48" y1="-9.767" x2="33.7631" y2="-9.767" width="0.3048" layer="1"/>
+<wire x1="34.61" y1="-8.9201" x2="34.61" y2="-7.6501" width="0.3048" layer="1"/>
+<wire x1="34.61" y1="-8.9201" x2="33.7631" y2="-9.767" width="0.3048" layer="1"/>
 </signal>
 <signal name="RESET">
 <contactref element="C14" pad="2"/>
@@ -2387,7 +2405,7 @@ design rules under a new name.</description>
 <contactref element="LED8" pad="C"/>
 <contactref element="R24" pad="2"/>
 <wire x1="34.29" y1="16.93" x2="34.317" y2="16.903" width="0.1524" layer="1"/>
-<wire x1="34.317" y1="16.903" x2="38.1" y2="16.903" width="0.1524" layer="1"/>
+<wire x1="34.317" y1="16.903" x2="38.1" y2="16.903" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="PD" pad="6"/>
@@ -2486,6 +2504,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
